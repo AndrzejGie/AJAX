@@ -1,0 +1,20 @@
+body {
+    background-color: darkolivegreen;
+    color: goldenrod;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+}
+.idUser {
+    text-align: center;
+    font-size: 2rem;
+}
+.pobieranie {
+    font-size: 50px;
+    background-color: darkblue;
+    color: gold;
+}
+.pobieranie:hover {
+    background-color: darkmagenta;
+    color: orangered;
+}
