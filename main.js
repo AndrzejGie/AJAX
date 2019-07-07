@@ -15,7 +15,7 @@
 // }
 let idUser = ''
 
-let mainDiv = document.createElement("div");
+let mainDiv = document.getElementById('mainDiva')
 function getIdUser() {
     
     const idUser = document.getElementsByClassName('idUser')[0].value
@@ -49,6 +49,8 @@ function getIdUser() {
 
             })
             .catch(error => console.error(error));
+
+
 
 
 
