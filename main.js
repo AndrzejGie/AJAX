@@ -59,5 +59,8 @@ function getIdUser() {
         alert('zła liczba!' + ' ' + idUser)
     }
 
+document.getElementById('mainDiva').style.display = "block"
+document.getElementById('mainDiva').style.animation = "rotate-center 5s linear 2"
+document.getElementById('mainDiva').style.animationDelay = "1s"
 
 }
